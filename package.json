@@ -1,0 +1,26 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": "Logan Tuczak",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0"
+  }
+}
