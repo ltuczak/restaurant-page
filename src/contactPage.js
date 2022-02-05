@@ -4,6 +4,9 @@ const contactPage = function() {
     const container = document.createElement('div');
     container.id = 'container';
 
+    const box = document.createElement('div');
+    box.id = 'box';
+
     const p1 = document.createElement('p');
     p1.innerHTML = `Phone: +1 234 567 8910`;
 
@@ -14,9 +17,10 @@ const contactPage = function() {
     p3.innerHTML = `Mailing Address: 123 Potato Place, Boise, Idaho`;
 
     content.appendChild(container);
-    container.appendChild(p1);
-    container.appendChild(p2);
-    container.appendChild(p3);
+    container.appendChild(box);
+    box.appendChild(p1);
+    box.appendChild(p2);
+    box.appendChild(p3);
 };
 
 

@@ -48,12 +48,16 @@ nav {
 }
 
 p {
+    text-align: center;
+    padding: 1%;
+}
+
+#box {
     background: rgba(133, 107, 107, 0.85);
     padding: 5%;
     margin: 5%;
     border-style: solid;
     border-color: black;
-    text-align: center;
 }
 
 
