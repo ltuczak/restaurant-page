@@ -5,7 +5,9 @@ const contactPage = function() {
     container.id = 'container';
 
     const p = document.createElement('p');
-    p.innerHTML = 'Phone: +1 234 567 8910\nEmail: patspotatopub@gmail.com\nMailing Address: 123 Potato Place, Boise, Idaho';
+    p.innerHTML = `Phone: +1 234 567 8910
+    Email: patspotatopub@gmail.com
+    Mailing Address: 123 Potato Place, Boise, Idaho`;
 
     content.appendChild(container);
     container.appendChild(p);
