@@ -33,20 +33,12 @@ const createNav = function() {
     nav.appendChild(menu);
     nav.appendChild(contact);
 
-    document.body.addEventListener('click', function(menu) {
-        if(menu.target.id == 'menu') {
+    document.body.addEventListener('click', function(e) {
+        if(e.target.id == 'menu') {
             changeTab(menuPage());
-        };
-    });
-    
-    document.body.addEventListener('click', function(contact) {
-        if(contact.target.id == 'contact') {
+        } else if(e.target.id == 'contact') {
             changeTab(contactPage());
-        };
-    });
-    
-    document.body.addEventListener('click', function(about) {
-        if(about.target.id == 'about') {
+        } else if(e.target.id == 'about') {
             changeTab(aboutPage());
         };
     });
